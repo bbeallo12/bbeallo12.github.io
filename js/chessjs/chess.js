@@ -34,6 +34,15 @@
  * https://github.com/jhlywa/chess.js/blob/master/LICENSE
  */
 
+ var bitSum = function(i) {
+    var sum = 0;
+    while (i > 0) {
+        sum = sum + i % 2;
+        i = Math.floor(i / 2);
+    }
+    return sum%2;
+};
+ 
 var Chess = function(fen) {
 
     /* jshint indent: false */
@@ -1154,6 +1163,7 @@ var Chess = function(fen) {
             if (piece === ambig_piece && from !== ambig_from && to === ambig_to) {
                 ambiguities++;
 
+
                 if (rank(from) === rank(ambig_from)) {
                     same_rank++;
                 }
@@ -1234,7 +1244,7 @@ var Chess = function(fen) {
     }
 
     function swap_color(c) {
-        return c === WHITE ? BLACK : WHITE;
+        return bitSum(move_number) === 1 ? BLACK : WHITE;
     }
 
     function is_digit(c) {
