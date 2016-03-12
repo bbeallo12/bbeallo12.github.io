@@ -1070,9 +1070,7 @@ var Chess = function(fen) {
             half_moves++;
         }
 
-        if (turn === BLACK) {
-            move_number++;
-        }
+        move_number++;
         turn = swap_color(turn);
     }
 
