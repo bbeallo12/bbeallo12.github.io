@@ -8,6 +8,7 @@ var turn_count = 0;
 
 	messageFields[0] = $('#message0');
     messageFields[1] = $('#message1');
+    messageFields[1] = $('#message1');
     messageFields[2] = $('#message2');
     messageFields[3] = $('#message3');
     messageFields[4] = $('#message4');
@@ -23,8 +24,8 @@ var turn_count = 0;
 // Only move if it is their turn and game is not over.
 // Modified chessboardjs.com/examples#5000
 var onDragStart = function(source, piece, position, orientation) {
-    if (game.game_over() === true ||
-        (turns[0] === 'w' && piece.search(/^b/) !== -1) ||
+	if (game.game_over() === true ||
+		(turns[0] === 'w' && piece.search(/^b/) !== -1) ||
         (turns[0] === 'b' && piece.search(/^w/) !== -1)) {
         return false;
     }
