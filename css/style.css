@@ -1,5 +1,40 @@
-.page-wrap {
+body{
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28pt;
+}
+#wrapper {
+  display: block;
+  background-color:rgba(0, 0, 0, 0);
+  width: 1000px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  border: white 5px solid;
+  display: block;
+  background-image: url('../img/banner.png');
+   background-size: 1000px 172px;
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
   margin: 0 auto;
-  min-height: 100%;
+  width: 900px;
+  height: 200px;
   margin-bottom: 1em;
+}
+
+header h1{
+  display: block;
+  color: #00FF65;
+  position: relative;
+  left: 350px;
+  top: 50px;
+}
+
+#logo {
+  display: block;
+  float: left;
 }
