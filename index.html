@@ -7,29 +7,40 @@
 	<meta name="description" content="My Portfolio">
 	<meta name="keywords" content="computer, engineering, programming, programmer">
 	<meta name="author" content="Brian Beallo">
-	<meta http-equiv="refresh" content="30">
+	<meta http-equiv="refresh" content="3600">
 
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 </head>
 
-<div id="wrapper">
+<body onload="resize()" onresize="resize()">
+	<div id="wrapper">
 
-	<body>
+		<p id="debug"></p>
+		<img onmouseover="this.src ='img/bubble_hover.png'" onmouseout="this.src='img/bubble.png'" onmousedown="this.src='img/bubble_clicked.png'" onmouseup="this.src='img/bubble.png'"  class="bubble" id="bubble1" width="100px" height="100px" src="img/bubble.png" alt="Bubble Selection">
+		<img onmouseover="this.src ='img/bubble_hover.png'" onmouseout="this.src='img/bubble.png'" onmousedown="this.src='img/bubble_clicked.png'" onmouseup="this.src='img/bubble.png'"   class="bubble" id="bubble2" width="100px" height="100px" src="img/bubble.png" alt="Bubble Selection">
+		<img onmouseover="this.src ='img/bubble_hover.png'" onmouseout="this.src='img/bubble.png'" onmousedown="this.src='img/bubble_clicked.png'" onmouseup="this.src='img/bubble.png'"   class="bubble" id="bubble3" width="100px" height="100px" src="img/bubble.png" alt="Bubble Selection">
+		<img onmouseover="this.src ='img/bubble_hover.png'" onmouseout="this.src='img/bubble.png'" onmousedown="this.src='img/bubble_clicked.png'" onmouseup="this.src='img/bubble.png'"   class="bubble" id="bubble4" width="100px" height="100px" src="img/bubble.png" alt="Bubble Selection">
+		<img onmouseover="this.src ='img/bubble_hover.png'" onmouseout="this.src='img/bubble.png'" onmousedown="this.src='img/bubble_clicked.png'" onmouseup="this.src='img/bubble.png'"   class="bubble" id="bubble5" width="100px" height="100px" src="img/bubble.png" alt="Bubble Selection">
+		<img onmouseover="this.src ='img/bubble_hover.png'" onmouseout="this.src='img/bubble.png'" onmousedown="this.src='img/bubble_clicked.png'" onmouseup="this.src='img/bubble.png'"   class="bubble" id="bubble6" width="100px" height="100px" src="img/bubble.png" alt="Bubble Selection">
 
-		<header>
-            <img id="logo" src="img/logo.png" alt="Logo Icon" width="100px" height="100px">
-            <h1>This is a test</h1>
-		</header>
+		<img class="bubble" id="bubble_color1" width="200px" height="200px" src="img/blue_glow.png" alt="Bubble Selection">
+		<img class="bubble" id="bubble_color2" width="200px" height="200px" src="img/red_glow.png" alt="Bubble Selection">
+		<img class="bubble" id="bubble_color3" width="200px" height="200px" src="img/yellow_glow.png" alt="Bubble Selection">
+		<img class="bubble" id="bubble_color4" width="200px" height="200px" src="img/blue_glow.png" alt="Bubble Selection">
+		<img class="bubble" id="bubble_color5" width="200px" height="200px" src="img/green_glow.png" alt="Bubble Selection">
+		<img class="bubble" id="bubble_color6" width="200px" height="200px" src="img/red_glow.png" alt="Bubble Selection">
 
-		<main>
+		<h1 class="bubble" id="bubble_text1">Test</h1>
+		<h1 class="bubble" id="bubble_text2">Test</h1>
+		<h1 class="bubble" id="bubble_text3">Test</h1>
+		<h1 class="bubble" id="bubble_text4">Test</h1>
+		<h1 class="bubble" id="bubble_text5">Test</h1>
+		<h1 class="bubble" id="bubble_text6">Test</h1>
 
-		</main>
+	</div>
 
-		<footer>
-
-		</footer>
-</div>
+	<script type="text/javascript" src="js/test.js"></script>
 
 </body>
 
