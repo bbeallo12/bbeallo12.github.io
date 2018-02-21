@@ -14,7 +14,6 @@
   <link rel="stylesheet" type="text/css" href="WEFiles/EG/EGf8c88e12/Css/jquery.vegas-v89.css?v=50491094400" />
   <link rel="stylesheet" type="text/css" href="WEFiles/EG/EGf79d11e9/Css/parallax-safe-v26.css?v=50491094400" />
   <link rel="stylesheet" type="text/css" href="WEFiles/EG/EG9f25bfab/Css/OERespPanel-v70.css?v=50491094400" />
-  <link rel="stylesheet" type="text/css" href="WEFiles/EG/EGf9f84a8d/Css/swipebox-v267.css?v=50491094400" />
   <!--[if lte IE 7]>
   <link rel="stylesheet" type="text/css" href="WEFiles/Css/ie7.css?v=50491094400" />
   <![endif]-->
@@ -38,10 +37,8 @@
   <script type="text/javascript" src="WEFiles/EG/EGf79d11e9/Js/parallax-safe-v33.js?v=50491094400"></script>
   <script type="text/javascript" src="WEFiles/EG/EGb09efbd1/Js/iframeprotect-v18.js?v=50491094400"></script>
   <script type="text/javascript" src="WEFiles/EG/EG9f25bfab/Js/OERespPanel-v104.js?v=50491094400"></script>
-  <script type="text/javascript" src="WEFiles/EG/EGf9f84a8d/Js/swipebox-v224.js?v=50491094400"></script>
-  <script type="text/javascript" src="WEFiles/EG/EGf9f84a8d/Js/jquery-swipebox-v54.js?v=50491094400"></script>
   <script type="text/javascript">
-   var WEEdValidators = {"WEFORMULAIRENOM":[{"MsgError":"Veuillez inscrire votre message d'erreur.","Expression":".+"}],"WEEMAIL":[{"MsgError":"Veuillez inscrire votre message d'erreur.","Expression":".+"}],"WEMESSAGEFORMULAIRE":[{"MsgError":"Veuillez inscrire votre message d'erreur.","Expression":".+"}]}
+   var WEEdValidators = {"WEFORMULAIRENOM":[{"MsgError":"Name field is required.","Expression":".+"}],"WEEMAIL":[{"MsgError":"Not a valid email address.","Expression":"^[a-zA-Z0-9._-]+@[a-zA-Z0-9-.àâçèéêîôùûüïöäë]{2,}[.][a-zA-Z]{2,6}$"},{"MsgError":"Required field.","Expression":".+"}],"WEMESSAGEFORMULAIRE":[{"MsgError":"Required field.","Expression":".+"}]}
   </script>
   <style id="OEScriptManager" type="text/css">
    /* transition effect */
@@ -221,9 +218,9 @@
              </div>
             </div>
             <div class="OERelLine OEHAlignC OEVAlignB">
-             <div id="WE2e571886d8" class="BaseDiv RBoth OEWELinkImage OESK_WELinkImage_Default OEGo  apply-smoove transitions" style="z-index:3004" onclick="return OE.Navigate.open(event,'index.htm#education',1)">
+             <div id="WE2e571886d8" class="BaseDiv RBoth OEWELinkImage OESK_WELinkImage_Default OEGo  apply-smoove transitions" style="z-index:3004" onclick="return OE.Navigate.open(event,'index.htm#projects',1)">
               <div class="OESZ OESZ_DivContent OESZG_WE2e571886d8">
-               <a href="index.htm#education" data-cd="PageLink">
+               <a href="index.htm#projects" data-cd="PageLink">
                 <img style="width:100%;height:100%;border:none" src="WEFiles/Image/empty.png" />
                </a>
               </div>
@@ -245,7 +242,7 @@
       <div id="WEMENU" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:2003">
        <div class="OESZ OESZ_DivContent OESZG_WEMENU">
         <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
-         <div class="OERelLine OEHAlignC OEVAlignT">
+         <div class="OERelLine OEHAlignC OEVAlignM">
           <div id="WE1f4b4c704e" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  transitions" style="z-index:2003">
            <div class="OESZ OESZ_DivContent OESZG_WE1f4b4c704e">
             <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
@@ -254,9 +251,9 @@
                <div class="OESZ OESZ_DivContent OESZG_WE51ea8d21d9">
                 <img src="WEFiles/Image/WEImage/menu-mobile60x60-WEMENU_MOBILE.png" class="OESZ OESZ_Img OESZG_WE51ea8d21d9" alt="" />
                </div>
-              </div><div id="WE9faed01fa5" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default" style="z-index:2008">
-               <div class="OESZ OESZ_DivContent OESZG_WE9faed01fa5">
-                <img src="Files/Image/accueil/LOGO.png" class="OESZ OESZ_Img OESZG_WE9faed01fa5" alt="" />
+              </div><div id="WE3954ab014c" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default" style="z-index:2008">
+               <div class="OESZ OESZ_DivContent OESZG_WE3954ab014c">
+                <img src="Files/Image/accueil/LOGO.png" class="OESZ OESZ_Img OESZG_WE3954ab014c" alt="" />
                </div>
               </div><div id="WEbc6db2ad60" class="BaseDiv RNone OEWELink OESK_WELink_Default OE_ActiveLink  transitions btmobile" style="z-index:2004" onclick="return OE.Navigate.open(event,'index.htm#welcome',1)">
                <div class="OESZ OESZ_DivContent OESZG_WEbc6db2ad60 OE_ActiveLink">
@@ -293,183 +290,114 @@
       </div>
      </div>
      <div class="OERelLine OEHAlignL OEVAlignB">
-      <div id="WEb026e6e054" class="BaseDiv RBoth OEEG9f25bfab OESK_EG9f25bfab_Default" style="z-index:3003">
-       <div class="OESZ OESZ_DivContent OESZG_WEb026e6e054">
+      <div id="WE5863078dcd" class="BaseDiv RBoth OEEG9f25bfab OESK_EG9f25bfab_Default" style="z-index:3011">
+       <div class="OESZ OESZ_DivContent OESZG_WE5863078dcd">
         <div class="OECT OECT_OuterContent OECTAbs">
-         <div id="WE969d06b635" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  oerp-inner-content" style="z-index:3001">
-          <div class="OESZ OESZ_DivContent OESZG_WE969d06b635">
+         <div id="WEe5c2775442" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  oerp-inner-content" style="z-index:3001">
+          <div class="OESZ OESZ_DivContent OESZG_WEe5c2775442">
            <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
             <div class="OERelLine OEHAlignC OEVAlignT">
-             <div id="WEdf23ba1eb4" class="BaseDiv RNone OEWELabel OESK_WELabel_Default  apply-smoove" style="z-index:3001">
-              <div class="OESZ OESZ_DivContent OESZG_WEdf23ba1eb4">
-               <span class="OESZ OESZ_Text OESZG_WEdf23ba1eb4 ContentBox">PROJECTS</span>
+             <div id="WE51fc0534a3" class="BaseDiv RNone OEWELabel OESK_WELabel_Default  apply-smoove" style="z-index:3001">
+              <div class="OESZ OESZ_DivContent OESZG_WE51fc0534a3">
+               <span class="OESZ OESZ_Text OESZG_WE51fc0534a3 ContentBox">PROJECTS</span>
               </div>
              </div>
             </div>
             <div class="OERelLine OEHAlignC OEVAlignT">
-             <div id="WE0f4a11a369" class="BaseDiv RNone OEWEPanel OESK_WEPanel_Default  apply-smoove" style="z-index:3002">
-              <div class="OESZ OESZ_DivContent OESZG_WE0f4a11a369">
-               <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:visible">
-                <div class="OERelLine OEHAlignC OEVAlignB">
-                 <div id="WEb94888e8d6" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3001">
-                  <div class="OESZ OESZ_DivContent OESZG_WEb94888e8d6">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG01.jpg" 
-		   title="Un sweat avec 20 euros">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG01.jpg" alt="Un sweat avec 20 euros" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WEb94888e8d6 oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WEb94888e8d6 OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WEb94888e8d6 OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+             <div id="WEf496ed30bf" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  apply-smoove" style="z-index:3002">
+              <div class="OESZ OESZ_DivContent OESZG_WEf496ed30bf">
+               <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
+                <div class="OERelLine OEHAlignC OEVAlignT">
+                 <div id="WEc2f97b8437" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:3005">
+                  <div class="OESZ OESZ_DivContent OESZG_WEc2f97b8437 OEGo transitions">
+                   <img src="Files/Image/ACTUALITES/IMG_004.jpg" class="OESZ OESZ_Img OESZG_WEc2f97b8437" alt="" />
                   </div>
-                 </div><div id="WE1d8146a06a" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3002">
-                  <div class="OESZ OESZ_DivContent OESZG_WE1d8146a06a">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG02.jpg" 
-		   title="">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG02.jpg" alt="" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WE1d8146a06a oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WE1d8146a06a OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WE1d8146a06a OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignC OEVAlignT">
+                 <div id="WEd3c1e57ccd" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:3002">
+                  <div class="OESZ OESZ_DivContent OESZG_WEd3c1e57ccd">
+                   <span class="OESZ OESZ_Text OESZG_WEd3c1e57ccd ContentBox">Project 01<br /></span>
                   </div>
-                 </div><div id="WEfda34a2b46" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3003">
-                  <div class="OESZ OESZ_DivContent OESZG_WEfda34a2b46">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG03.jpg" 
-		   title="">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG03.jpg" alt="" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WEfda34a2b46 oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WEfda34a2b46 OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WEfda34a2b46 OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignL OEVAlignB">
+                 <div id="WE5e8f3baea8" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:3003">
+                  <div class="OESZ OESZ_DivContent OESZG_WE5e8f3baea8">
+                   <span class="ContentBox">Quis enim aut eum diligat quem metuat, aut eum a quo se metui putet? Coluntur tamen simulatione dumtaxat ad tempus. Quod si forte, ut fit plerumque, ceciderunt, tum intellegitur quam fuerint inopes amicorum. Quod Tarquinium dixisse ferunt, tum exsulantem se intellexisse quos fidos amicos habuisset, quos infidos, cum iam neutris gratiam referre posset.</span>
                   </div>
-                 </div><div id="WE5d79bffc0c" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3004">
-                  <div class="OESZ OESZ_DivContent OESZG_WE5d79bffc0c">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG04.jpg" 
-		   title="">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG04.jpg" alt="" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WE5d79bffc0c oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WE5d79bffc0c OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WE5d79bffc0c OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignL OEVAlignB">
+                 <div id="WE1106563f07" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'projects.htm',1)">
+                  <div class="OESZ OESZ_DivContent OESZG_WE1106563f07">
+                   <a class="OESZ OESZ_Link OESZG_WE1106563f07 ContentBox" data-cd="PageLink" href="projects.htm">lire la suite</a>
                   </div>
-                 </div><div id="WE55b23565f7" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3005">
-                  <div class="OESZ OESZ_DivContent OESZG_WE55b23565f7">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG05.jpg" 
-		   title="">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG05.jpg" alt="" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WE55b23565f7 oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WE55b23565f7 OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WE55b23565f7 OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div><div id="WE095f6ef5a4" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  apply-smoove" style="z-index:3004">
+              <div class="OESZ OESZ_DivContent OESZG_WE095f6ef5a4">
+               <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
+                <div class="OERelLine OEHAlignC OEVAlignT">
+                 <div id="WE77873f1c3f" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:3004">
+                  <div class="OESZ OESZ_DivContent OESZG_WE77873f1c3f OEGo transitions">
+                   <img src="Files/Image/ACTUALITES/IMG_005.jpg" class="OESZ OESZ_Img OESZG_WE77873f1c3f" alt="" />
                   </div>
-                 </div><div id="WE88756e98fc" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3006">
-                  <div class="OESZ OESZ_DivContent OESZG_WE88756e98fc">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG06.jpg" 
-		   title="">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG06.jpg" alt="" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WE88756e98fc oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WE88756e98fc OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WE88756e98fc OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignC OEVAlignT">
+                 <div id="WEac179eb5c6" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:3002">
+                  <div class="OESZ OESZ_DivContent OESZG_WEac179eb5c6">
+                   <span class="OESZ OESZ_Text OESZG_WEac179eb5c6 ContentBox">Project 02<br /></span>
                   </div>
-                 </div><div id="WE674ea82577" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3007">
-                  <div class="OESZ OESZ_DivContent OESZG_WE674ea82577">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG07.jpg" 
-		   title="">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG07.jpg" alt="" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WE674ea82577 oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WE674ea82577 OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WE674ea82577 OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignL OEVAlignB">
+                 <div id="WE3a04cd5b34" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:3003">
+                  <div class="OESZ OESZ_DivContent OESZG_WE3a04cd5b34">
+                   <span class="ContentBox">Quis enim aut eum diligat quem metuat, aut eum a quo se metui putet? Coluntur tamen simulatione dumtaxat ad tempus. Quod si forte, ut fit plerumque, ceciderunt, tum intellegitur quam fuerint inopes amicorum</span>
                   </div>
-                 </div><div id="WEe6c99dea06" class="BaseDiv RBoth OEEGf9f84a8d OESK_EGf9f84a8d_Default  transitions" style="z-index:3008">
-                  <div class="OESZ OESZ_DivContent OESZG_WEe6c99dea06">
-                   <div class="oesi-main-wrap">
-                   	<a class="oesi-swipebox" 
-                   		   rel="swipebox1" 
-		   href="Files/Image/GALERIE/FULL/IMG08.jpg" 
-		   title="">
-		   <img src="Files/Image/GALERIE/MINIATURES/IMG08.jpg" alt="" />
-		<div class="oesi-img-bg">
-		</div>
-                   <div style="" class="OESZ OESZ_Z_Over OESZG_WEe6c99dea06 oesi-over oesi-apply-onover oesi-transition-all">
-                    <div style="" class="OESZ OESZ_Z_Over_Center OESZG_WEe6c99dea06 OEo oesi-over-center oesi-apply-onover">
-                     <div style="" class="OESZ OESZ_Z_Over_Sub OESZG_WEe6c99dea06 OEo oesi-over-sub oesi-apply-onover">
-                     </div>
-                    </div>
-                   </div>
-                   	</a>
-</div>
-
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignC OEVAlignT">
+                 <div id="WEd1eedbb56d" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'projects.htm#project2',1)">
+                  <div class="OESZ OESZ_DivContent OESZG_WEd1eedbb56d">
+                   <a class="OESZ OESZ_Link OESZG_WEd1eedbb56d ContentBox" data-cd="PageLink" href="projects.htm#project2">lire la suite</a>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div><div id="WEd8eff163e7" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default  apply-smoove" style="z-index:3004">
+              <div class="OESZ OESZ_DivContent OESZG_WEd8eff163e7">
+               <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
+                <div class="OERelLine OEHAlignC OEVAlignT">
+                 <div id="WE3449272106" class="BaseDiv RKeepRatio OEWEImage OESK_WEImage_Default" style="z-index:3004">
+                  <div class="OESZ OESZ_DivContent OESZG_WE3449272106 OEGo transitions">
+                   <img src="Files/Image/ACTUALITES/IMG_006.jpg" class="OESZ OESZ_Img OESZG_WE3449272106" alt="" />
+                  </div>
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignC OEVAlignT">
+                 <div id="WEedac9404fb" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:3002">
+                  <div class="OESZ OESZ_DivContent OESZG_WEedac9404fb">
+                   <span class="OESZ OESZ_Text OESZG_WEedac9404fb ContentBox">Project 03<br /></span>
+                  </div>
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignL OEVAlignB">
+                 <div id="WE5569e50994" class="BaseDiv RWidth OEWEText OESK_WEText_Default" style="z-index:3003">
+                  <div class="OESZ OESZ_DivContent OESZG_WE5569e50994">
+                   <span class="ContentBox">Quis enim aut eum diligat quem metuat, aut eum a quo se metui putet? Coluntur tamen simulatione dumtaxat ad tempus. Quod si forte, ut fit plerumque, ceciderunt, tum intellegitur quam fuerint inopes amicorum. <br /><br />Quod Tarquinium dixisse ferunt, tum exsulantem se intellexisse quos fidos amicos habuisset, quos infidos, cum iam neutris gratiam referre posset.</span>
+                  </div>
+                 </div>
+                </div>
+                <div class="OERelLine OEHAlignL OEVAlignB">
+                 <div id="WEea74124e28" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'projects.htm#project3',1)">
+                  <div class="OESZ OESZ_DivContent OESZG_WEea74124e28">
+                   <a class="OESZ OESZ_Link OESZG_WEea74124e28 ContentBox" data-cd="PageLink" href="projects.htm#project3">lire la suite</a>
                   </div>
                  </div>
                 </div>
@@ -480,8 +408,8 @@
            </div>
           </div>
          </div>
-         <div id="WEdd43045de0" class="BaseDiv RNone OEWEAnchor OESK_WEAnchor_Default" style="z-index:3002">
-          <div class="OESZ OESZ_DivContent OESZG_WEdd43045de0">
+         <div id="WE29cb9bad82" class="BaseDiv RNone OEWEAnchor OESK_WEAnchor_Default" style="z-index:3002">
+          <div class="OESZ OESZ_DivContent OESZG_WE29cb9bad82">
            <a name="projects"></a>
           </div>
          </div>
@@ -676,7 +604,7 @@
                 <div class="OERelLine OEHAlignC OEVAlignT">
                  <div id="WE3aeef0cf75" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:3002">
                   <div class="OESZ OESZ_DivContent OESZG_WE3aeef0cf75">
-                   <span class="OESZ OESZ_Text OESZG_WE3aeef0cf75 ContentBox">News 01<br /></span>
+                   <span class="OESZ OESZ_Text OESZG_WE3aeef0cf75 ContentBox">Publication&nbsp;01<br /></span>
                   </div>
                  </div>
                 </div>
@@ -688,9 +616,9 @@
                  </div>
                 </div>
                 <div class="OERelLine OEHAlignL OEVAlignB">
-                 <div id="WE87af9dc9a5" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'actualites.htm',1)">
+                 <div id="WE87af9dc9a5" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'publications.htm',1)">
                   <div class="OESZ OESZ_DivContent OESZG_WE87af9dc9a5">
-                   <a class="OESZ OESZ_Link OESZG_WE87af9dc9a5 ContentBox" data-cd="PageLink" href="actualites.htm">lire la suite</a>
+                   <a class="OESZ OESZ_Link OESZG_WE87af9dc9a5 ContentBox" data-cd="PageLink" href="publications.htm">lire la suite</a>
                   </div>
                  </div>
                 </div>
@@ -709,7 +637,7 @@
                 <div class="OERelLine OEHAlignC OEVAlignT">
                  <div id="WE5edf5790c5" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:3002">
                   <div class="OESZ OESZ_DivContent OESZG_WE5edf5790c5">
-                   <span class="OESZ OESZ_Text OESZG_WE5edf5790c5 ContentBox">News 02<br /></span>
+                   <span class="OESZ OESZ_Text OESZG_WE5edf5790c5 ContentBox">Publication 02<br /></span>
                   </div>
                  </div>
                 </div>
@@ -721,9 +649,9 @@
                  </div>
                 </div>
                 <div class="OERelLine OEHAlignC OEVAlignT">
-                 <div id="WE3607f68dc1" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'actualites.htm#news2',1)">
+                 <div id="WE3607f68dc1" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'publications.htm#publication2',1)">
                   <div class="OESZ OESZ_DivContent OESZG_WE3607f68dc1">
-                   <a class="OESZ OESZ_Link OESZG_WE3607f68dc1 ContentBox" data-cd="PageLink" href="actualites.htm#news2">lire la suite</a>
+                   <a class="OESZ OESZ_Link OESZG_WE3607f68dc1 ContentBox" data-cd="PageLink" href="publications.htm#publication2">lire la suite</a>
                   </div>
                  </div>
                 </div>
@@ -742,7 +670,7 @@
                 <div class="OERelLine OEHAlignC OEVAlignT">
                  <div id="WEe855436373" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:3002">
                   <div class="OESZ OESZ_DivContent OESZG_WEe855436373">
-                   <span class="OESZ OESZ_Text OESZG_WEe855436373 ContentBox">News 03<br /></span>
+                   <span class="OESZ OESZ_Text OESZG_WEe855436373 ContentBox">Publication 03<br /></span>
                   </div>
                  </div>
                 </div>
@@ -754,9 +682,9 @@
                  </div>
                 </div>
                 <div class="OERelLine OEHAlignL OEVAlignB">
-                 <div id="WE6b9fc6e447" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'actualites.htm#news3',1)">
+                 <div id="WE6b9fc6e447" class="BaseDiv RBoth OEWELink OESK_WELink_Default OEGo  transitions" style="z-index:3005" onclick="return OE.Navigate.open(event,'publications.htm#publication3',1)">
                   <div class="OESZ OESZ_DivContent OESZG_WE6b9fc6e447">
-                   <a class="OESZ OESZ_Link OESZG_WE6b9fc6e447 ContentBox" data-cd="PageLink" href="actualites.htm#news3">lire la suite</a>
+                   <a class="OESZ OESZ_Link OESZG_WE6b9fc6e447 ContentBox" data-cd="PageLink" href="publications.htm#publication3">lire la suite</a>
                   </div>
                  </div>
                 </div>
@@ -979,7 +907,7 @@
                      <div class="OERelLine OEHAlignL OEVAlignB">
                       <div id="WEEMAIL" class="BaseDiv RWidth OEWETextBoxV2 OESK_WETextBox2_Default  default-text" style="z-index:3002">
                        <div class="OESZ OESZ_DivContent OESZG_WEEMAIL">
-                        <input name="WEEMAIL" type="text" class="OESZ OESZ_TextBox OESZG_WEEMAIL OEDynTag0" value="Mail" />
+                        <input name="WEEMAIL" type="text" class="OESZ OESZ_TextBox OESZG_WEEMAIL OEDynTag0" value="Email" />
                        </div>
                       </div>
                      </div>
@@ -994,7 +922,7 @@
                    </div>
                   </div><div id="WEe123e33919" class="BaseDiv RWidth OEWEText OESK_WEText_Default  blocdescription" style="z-index:3004">
                    <div class="OESZ OESZ_DivContent OESZG_WEe123e33919">
-                    <span class="ContentBox"><span style="font-size:24px;">CONTACT ADDRESS</span><br /><br /><span style="color:rgb(165, 165, 165);">brice@sensode.com<br /><br />Tél : 06 28 55 81 22<br /><br />11 avenue général Estienne<br />06000 NICE<br /></span><br />Don't forget to configure sending emains! (see Email Form element above the page)<br /></span>
+                    <span class="ContentBox"><span style="font-size:24px;">CONTACT ADDRESS</span><br /><br /><span style="color:rgb(165, 165, 165);">brianebeallo@yahoo.com<br /><br />Cell : 1-(310)-691-4880</span><br /></span>
                    </div>
                   </div>
                  </div>
@@ -1014,50 +942,10 @@
           </div><div id="WEa84a0e8d58" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:3002">
            <div class="OESZ OESZ_DivContent OESZG_WEa84a0e8d58">
             <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
-             <div class="OERelLine OEHAlignL OEVAlignB">
-              <div id="WE74d1a3132e" class="BaseDiv RBoth OEWEGoogleMaps OESK_WEGoogleMaps_Default" style="z-index:3001">
-               <div class="OESZ OESZ_DivContent OESZG_WE74d1a3132e">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.753614061126!2d7.273358851476473!3d43.71566915630378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdc552724dc5e9%3A0x94fda9f7d2b01a0!2sSensode!5e0!3m2!1sfr!2sus!4v1470689803169" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-               </div>
-              </div>
-             </div>
              <div class="OERelLine OEHAlignC OEVAlignT">
               <div id="WE8ae06362a5" class="BaseDiv RBoth OEWEPanel OESK_WEPanel_Default" style="z-index:3002">
                <div class="OESZ OESZ_DivContent OESZG_WE8ae06362a5">
-                <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden">
-                 <div class="OERelLine OEHAlignC OEVAlignT">
-                  <div id="WEde42a78731" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default OEGo  transitions" style="z-index:3001" title="Join us on Twitter">
-                   <div class="OESZ OESZ_DivContent OESZG_WEde42a78731">
-                    <img src="Files/Image/transparent.png" class="OESZ OESZ_Img OESZG_WEde42a78731" alt="Join us on Twitter" />
-                   </div>
-                  </div><div id="WEd8fd749ed0" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default OEGo  transitions" style="z-index:3002" title="Join us on Facebook">
-                   <div class="OESZ OESZ_DivContent OESZG_WEd8fd749ed0">
-                    <a href="https://www.facebook.com/sensode/">
-                     <img src="Files/Image/transparent.png" class="OESZ OESZ_Img OESZG_WEd8fd749ed0" alt="Join us on Facebook" />
-                    </a>
-                   </div>
-                  </div><div id="WEa703ff7f11" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default OEGo  transitions" style="z-index:3003" title="Join us on Skype">
-                   <div class="OESZ OESZ_DivContent OESZG_WEa703ff7f11">
-                    <img src="Files/Image/transparent.png" class="OESZ OESZ_Img OESZG_WEa703ff7f11" alt="Join us on Skype" />
-                   </div>
-                  </div><div id="WE844a26d68c" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default OEGo  transitions" style="z-index:3004" title="Watch our videos on Youtube">
-                   <div class="OESZ OESZ_DivContent OESZG_WE844a26d68c">
-                    <img src="Files/Image/transparent.png" class="OESZ OESZ_Img OESZG_WE844a26d68c" alt="Watch our videos on Youtube" />
-                   </div>
-                  </div><div id="WEcc030e88dd" class="BaseDiv RBoth OEWEImage OESK_WEImage_Default OEGo  transitions" style="z-index:3005" title="Join us on Google +">
-                   <div class="OESZ OESZ_DivContent OESZG_WEcc030e88dd">
-                    <img src="Files/Image/transparent.png" class="OESZ OESZ_Img OESZG_WEcc030e88dd" alt="Join us on Google +" />
-                   </div>
-                  </div>
-                 </div>
-                 <div class="OERelLine OEHAlignC OEVAlignT">
-                  <div id="WE73a6429049" class="BaseDiv RNone OEWELabel OESK_WELabel_Default" style="z-index:3006">
-                   <div class="OESZ OESZ_DivContent OESZG_WE73a6429049">
-                    <span class="OESZ OESZ_Text OESZG_WE73a6429049 ContentBox">©2016 - <a href="http://www.openelement.fr/" style="color:rgb(187, 85, 87);">OPENELEMENT</a>. TEMPLATE directed by &nbsp;<a href="http://sensode.com" style="color:rgb(187, 85, 87);">SENSODE</a></span>
-                   </div>
-                  </div>
-                 </div>
-                </div>
+                <div class="OECT OECT_Content OECTRel OEDynTag0" style="overflow:hidden"></div>
                </div>
               </div>
              </div>
@@ -1168,7 +1056,7 @@
   });
   </script>
   <script type="text/javascript">
-   $(["Files/Image/accueil/flechebas-actif.png","Files/Image/accueil/twitter_survol.jpg","Files/Image/accueil/facebook_survol.jpg","Files/Image/accueil/skype_survol.jpg","Files/Image/accueil/youtube_survol.jpg","Files/Image/accueil/googleplus_survol.jpg"]).preloadImg();
+   $(["Files/Image/accueil/flechebas-actif.png"]).preloadImg();
   </script>
  </body>
 </html>
