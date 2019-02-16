@@ -1,0 +1,114 @@
+2/20/2018 6:38:35 PM | 
+2/20/2018 6:38:35 PM | 
+Message : This anchor name already exists on the page
+2/20/2018 6:38:35 PM | 
+LastTrace : WebElement.Elements.Navigate.WEAnchor.OnRename(String oldName, String newName)
+2/20/2018 6:38:35 PM | 
+Params : 
+2/20/2018 6:38:35 PM | 
+MethodeName : Boolean OnRename(System.String, System.String)
+2/20/2018 6:38:35 PM | 
+Stamp : 2/20/2018 6:38:34 PM
+2/20/2018 6:38:35 PM | 
+OSFullName : Microsoft Windows 10 Pro
+2/20/2018 6:38:35 PM | 
+AvailablePhysicalMemory : 27.23 Go 
+2/20/2018 6:38:35 PM | 
+TotalPhysicalMemory : 31.9 Go 
+2/20/2018 6:38:35 PM | 
+AvailableVirtualMemory : 2.79 Go 
+2/20/2018 6:38:35 PM | 
+TotalVirtualMemory : 4 Go 
+2/20/2018 6:38:35 PM | 
+WorkingSet : 582.08 Mo 
+2/20/2018 6:38:35 PM | 
+PagedMemorySize : 541.27 Mo 
+2/20/2018 6:38:35 PM | 
+TotalMemory : 250.16 Mo 
+2/20/2018 6:38:35 PM | 
+
+2/20/2018 6:38:35 PM | 
+ExTrace : 
+2/20/2018 6:38:35 PM | 
+at WebElement.Elements.Navigate.WEAnchor.OnRename(String oldName, String newName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\Elements\WECommon\Navigate\WEAnchor.vb:line 93
+2/20/2018 6:38:35 PM | 
+at openElement.WebElement.Elements.ElementBase.set_Name(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Elements\ElementBase.vb:line 973
+2/20/2018 6:38:35 PM | 
+at openElement.WebElement.Elements.ElementBase.UpdatePage(Page page, Boolean withID) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Elements\ElementBase.Basic.vb:line 21
+2/20/2018 6:38:35 PM | 
+at openElement.WebElement.Elements.ElementBase.UpdatePage(Page page, Boolean withID) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Elements\ElementBase.Basic.vb:line 50
+2/20/2018 6:38:35 PM | 
+at openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:line 374
+2/20/2018 6:38:35 PM | 
+at openElement.Forms.FrmPageEdit.ClipboardPaste(Int32 pasteX, Int32 pasteY) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Clipboard.vb:line 393
+2/20/2018 6:38:35 PM | 
+at openElement.Forms.RibbonCore.RPPage.RPGClipboard.BBIPageClipboardPaste_ItemClick(Object sender, ItemClickEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Page\RPGClipboard.vb:line 50
+2/20/2018 6:38:35 PM | 
+
+2/20/2018 6:38:35 PM | 
+OETrace : 
+2/20/2018 6:38:35 PM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 93
+2/20/2018 6:38:35 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+2/20/2018 6:38:35 PM | 
+
+2/20/2018 6:38:35 PM | 
+------------------
+2/20/2018 6:38:36 PM | 
+2/20/2018 6:38:36 PM | 
+Message : This anchor name already exists on the page
+2/20/2018 6:38:36 PM | 
+LastTrace : WebElement.Elements.Navigate.WEAnchor.OnRename(String oldName, String newName)
+2/20/2018 6:38:36 PM | 
+Params : 
+2/20/2018 6:38:36 PM | 
+MethodeName : Boolean OnRename(System.String, System.String)
+2/20/2018 6:38:36 PM | 
+Stamp : 2/20/2018 6:38:36 PM
+2/20/2018 6:38:36 PM | 
+OSFullName : Microsoft Windows 10 Pro
+2/20/2018 6:38:36 PM | 
+AvailablePhysicalMemory : 27.23 Go 
+2/20/2018 6:38:36 PM | 
+TotalPhysicalMemory : 31.9 Go 
+2/20/2018 6:38:36 PM | 
+AvailableVirtualMemory : 2.79 Go 
+2/20/2018 6:38:36 PM | 
+TotalVirtualMemory : 4 Go 
+2/20/2018 6:38:36 PM | 
+WorkingSet : 584.3 Mo 
+2/20/2018 6:38:36 PM | 
+PagedMemorySize : 542.26 Mo 
+2/20/2018 6:38:36 PM | 
+TotalMemory : 249.75 Mo 
+2/20/2018 6:38:36 PM | 
+
+2/20/2018 6:38:36 PM | 
+ExTrace : 
+2/20/2018 6:38:36 PM | 
+at WebElement.Elements.Navigate.WEAnchor.OnRename(String oldName, String newName) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\Elements\WECommon\Navigate\WEAnchor.vb:line 93
+2/20/2018 6:38:36 PM | 
+at openElement.WebElement.Elements.ElementBase.set_Name(String value) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Elements\ElementBase.vb:line 973
+2/20/2018 6:38:36 PM | 
+at openElement.WebElement.Elements.ElementBase.UpdatePage(Page page, Boolean withID) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Elements\ElementBase.Basic.vb:line 21
+2/20/2018 6:38:36 PM | 
+at openElement.WebElement.Elements.ElementBase.UpdatePage(Page page, Boolean withID) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Elements\ElementBase.Basic.vb:line 50
+2/20/2018 6:38:36 PM | 
+at openElement.WebElement.Page.AddElement(ElementBase element, ElementMap& elementMap, Int32 lineIndex, Int32 posIndex, Int32 newLineIndex, Object cssLeft, Object cssTop, Boolean updatePage) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\WebElement\Page\PageControls.vb:line 374
+2/20/2018 6:38:36 PM | 
+at openElement.Forms.FrmPageEdit.ClipboardPaste(Int32 pasteX, Int32 pasteY) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Clipboard.vb:line 393
+2/20/2018 6:38:36 PM | 
+at openElement.Forms.RibbonCore.RPPage.RPGClipboard.BBIPageClipboardPaste_ItemClick(Object sender, ItemClickEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Main\RibbonItemCore\Page\RPGClipboard.vb:line 50
+2/20/2018 6:38:36 PM | 
+
+2/20/2018 6:38:36 PM | 
+OETrace : 
+2/20/2018 6:38:36 PM | 
+at openElement.My.MyApplication.MyApplication_UnhandledException(Object sender, UnhandledExceptionEventArgs e) in C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\ApplicationEvents.vb:line 98
+2/20/2018 6:38:36 PM | 
+at openElement.My.MyApplication.Main(String[] Args) in :line 82
+2/20/2018 6:38:36 PM | 
+
+2/20/2018 6:38:36 PM | 
+------------------
